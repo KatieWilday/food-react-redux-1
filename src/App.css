@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.App-logo {
+  animation: App-logo-spin 3s;
+  height: 19vmin;
+  pointer-events: none;
+  padding-top: 8px;
+  margin-top: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+  padding-right: 30px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sh-info {
+  text-align: left;
+
+}
+
+.list-style {
+  text-align: left;
+  column-count: 5;
+  width: 100%;
+  padding-top: 10px;
+
+}
+
+.list-style-list {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 3;
+  line-height: 3;
+}
+
+.counter-button {
+  color: darkorange;
+  padding-left: 5;
+  border: 1px solid darkgrey;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/*form*/
+.review-form {
+  width: 25%;
+  height: 53px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s all;
+  font-size: calc(7px + 2vmin);
+  text-align: left;
+}
+
+.review-form-rating {
+  width: 5%;
+  height: 20px;
+  border-radius: 10px;
+  font-size: calc(7px + 2vmin);
+  text-align: left;
+}
+
+.review-submit {
+  border-radius: 12px;
+  font-size: 16px
+
+}
+
+.review-submit:hover {
+  background-color: darkorange; /* Green */
+  color: white;
+}
+
+/*navbar*/
+.Nav-wrapper {
+  background: darkorange;
+  text-align: center;
+  font-size: 23px;
+	width: 100%;
+	min-height: 40px;
+	padding-left: 25px;
+	border-bottom: 1px solid rgba(15,15,15,0.5);
+	margin: auto;
+}
+
+.Nav-links-wrapper {
+  margin: auto;
+}
+.Nav-link {
+  margin: 5px 12px;
+  float: left;
+  color: white;
+}
+.Nav-link:hover {
+  color: brown !important;
+}
+.Active-link {
+  color: yellow !important;
+}
+
+.Home-wrapper {
+  font-family: Tahoma;
+  color: black;
+  font-size: 20px;
+}
+
+.Home-body {
+  font-family: Tahoma;
+  color: black;
+}
+
+.Home-link {
+  color: darkorange;
+}
+
+.sh-info {
+  font-family: Tahoma;
+  margin: 5%;
+  font-size: 16px;
+}
+
+.sh-info-type {
+  font-size: 20px;
+}
+
+.review-form-text {
+  font-size: 16px;
+  font-family: Tahoma;
+}
