@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The Food App was created to generate a random restaurant by either the name or by type of food. Users are able to rate and write a review for a restaurant as well as add a 'like' in the restaurant list. 
+
 ## Available Scripts
 
 In the project directory, you can run:
